@@ -23,7 +23,7 @@ eval "$(starship completions bash)"
 
 # Add for asthetic (ashish)
 # cowsay -f tux "Hello Ashu :)"
-~/.local/bin/rxfetch.sh
+~/.config/scripts/rxfetch.sh
 
 # Add for no duplicate entries in history (ashish)
 export HISTCONTROL=ignoredups:erasedups 
