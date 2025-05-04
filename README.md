@@ -7,19 +7,20 @@ This repository contains configuration files and scripts for customizing and opt
 ## Directory Structure
 
 The repository is organized as follows:
-
-- **`.bashrc`**: Custom bash configuration file.
-- **`.config`**: Contains various configuration directories and files:
-  - **`fastfetch`**: Configuration for the Fastfetch tool.
-  - **`nvim`**: Configuration for NeoVim.
-    - **`init.lua`**: Main configuration file for NeoVim.
-    - **`lazy-lock.json`**: Dependencies and plugins metadata for NeoVim.
-    - **`lua`**: Directory for Lua scripts related to NeoVim configuration.
-  - **`scripts`**: Custom scripts for various tasks.
-  - **`starship.toml`**: Configuration file for the Starship prompt.
-- **`.termux`**: Custom Termux settings.
-- **`assets`**: Additional assets for the repository.
-
+```
+.
+├── .bashrc
+├── .config
+│   ├── fastfetch
+│   ├── nvim
+│   │   ├── init.lua
+│   │   ├── lazy-lock.json
+│   │   └── lua
+│   ├── scripts
+│   └── starship.toml
+├── .termux
+└── assets
+```
 ## Key Software Used
 
 This repository relies on the following software:
