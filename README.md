@@ -1,3 +1,3 @@
 # Termux SS
 
-<kbd><img src="assets/termux.jpg"></kbd>
+<kbd><img src="assets/termux.jpg" width="" height="600"></kbd>
