@@ -20,6 +20,7 @@ export EDITOR=nvim
 # For Installing Starship default (Add by ashish)
 eval "$(starship init bash)"
 eval "$(starship completions bash)"
+eval "$(fzf --bash)"
 
 # Add for asthetic (ashish)
 # cowsay -f tux "Hello Ashu :)"
@@ -42,3 +43,4 @@ tmux_auto_attach() {
     fi
 }
 
+alias termux-api="am start com.termux.api/com.termux.api.activities.TermuxAPIMainActivity"
