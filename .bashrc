@@ -44,3 +44,19 @@ tmux_auto_attach() {
 }
 
 alias termux-api="am start com.termux.api/com.termux.api.activities.TermuxAPIMainActivity"
+
+
+open_file_in_nvim() {
+
+    SEARCH_DIR="~/termuxdotfile"
+    CURRENT_DIR=$(pwd)
+    selected_file=$(find ~/termuxdotfile "$CURRENT_DIR" -type f | fzf)
+
+    if [[ -n $selected_file ]]; then
+        nvim "$selected_file"
+    else
+        echo "No file selected."
+    fi
+}
+
+bind -x '"\et": open_file_in_nvim'
