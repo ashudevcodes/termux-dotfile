@@ -58,7 +58,7 @@ Android = ' [Android](bold yellow)'
 # Shows the hostname
 [hostname]
 ssh_only = true
-format = "🌐 "
+format = " "
 disabled = false
 
 # Shows current directory

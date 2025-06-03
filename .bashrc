@@ -16,6 +16,7 @@ alias lg="lazygit"
 
 # Make Vim defaut Editor (Add By ashish)
 export EDITOR=nvim
+alias nv="nvim"
 
 # For Installing Starship default (Add by ashish)
 eval "$(starship init bash)"
